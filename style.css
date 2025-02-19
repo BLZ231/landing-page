@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    gap: 5px;
    
 }
 
@@ -15,23 +18,29 @@ body {
         display: flex;
         flex: 1;
         justify-content: space-between;
+        
     }
 
         .item1a {
             display: flex;
-            justify-self: center;
-            align-self: center;
+            
         }
 
         .item1b {
             display: flex;
             justify-content: space-between;
+            list-style: none;
+            gap: 10px;
         }
+
+       
 
     .box2 {
         display: flex;
         flex-direction: column;
         align-self: flex-start;
+        gap: 5px;
+        align-items: center;
     }
 
     .box3 {
@@ -43,6 +52,10 @@ body {
     flex-direction: column;
     flex: 1;
 }
+
+    .item4a {
+        justify-self: center;
+    }
 
     .box5 {
         display: flex;
@@ -68,24 +81,30 @@ body {
 .container4 {
     display: flex;
     flex: 1;
+    
 }
 
     .box7 {
         display: flex;
         flex-direction: column;
-        flex: 1
+        flex: 1;
+        justify-content: center;
     }
 
     .box8 {
         display: flex;
         flex: 1;
+        justify-content: center;
+        align-items: center;
         
     }
 
 .container5 {
     display: flex;
     flex-direction: column;
-    flex: 0 1 8%
+    flex: 0 1 8%;
+    align-items: center;
+    
 }
 
 
