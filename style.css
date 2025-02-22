@@ -2,9 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    margin: 10px;
-    padding: 10px;
+    
+    
     gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 
@@ -12,17 +13,23 @@ body {
     display:flex;
     flex-direction: column;
     flex: 1;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 10px 50px;
+    
 }
 
     .box1 {
         display: flex;
         flex: 1;
         justify-content: space-between;
+        margin: 10px;
         
     }
 
         .item1a {
             display: flex;
+            font-size: 1.5em;
             
         }
 
@@ -40,8 +47,14 @@ body {
         flex-direction: column;
         align-self: flex-start;
         gap: 5px;
+        padding: 10px;
         align-items: center;
     }
+
+        .item2a {
+            font-weight: 900;
+            font-size: 2.25em;
+        }
 
     .box3 {
         align-self: flex-end;
@@ -51,10 +64,13 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding: 10px;
 }
 
     .item4a {
         justify-self: center;
+        font-weight: bold;
+        font-size: 1.5em;
     }
 
     .box5 {
@@ -70,18 +86,24 @@ body {
             align-items: center;
         }
 
+    .container2.img {
+        border-color: #3882F6;
+    }
+
 .container3 {
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
     justify-content: center;
+    background-color: #E5E7EB;
 }
 
 .container4 {
     display: flex;
     flex: 1;
     
+        
 }
 
     .box7 {
@@ -89,24 +111,48 @@ body {
         flex-direction: column;
         flex: 1;
         justify-content: center;
+        align-items: flex-end;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 75px;
+        color: #F9FAF8;
+        background-color: #3882F6;
     }
+
+        .item7a , .item7b {
+            align-self: center;
+        }
 
     .box8 {
         display: flex;
         flex: 1;
         justify-content: center;
         align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 75px;
+        color: #F9FAF8;
+        background-color: #3882F6;
         
     }
 
 .container5 {
     display: flex;
     flex-direction: column;
-    flex: 0 1 8%;
+    flex: 0 1 4%;
     align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 10px;
+
     
 }
 
-
+    button {
+        color: #F9FAF8;
+        background-color: #3882F6;
+        border-color: #3882F6;
+        border-radius: 5px;
+    }
 
 
